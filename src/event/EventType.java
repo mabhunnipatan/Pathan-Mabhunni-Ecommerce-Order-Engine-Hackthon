@@ -1,0 +1,10 @@
+package event;
+
+public enum EventType {
+    ORDER_CREATED,
+    PAYMENT_SUCCESS,
+    PAYMENT_FAILED,
+    INVENTORY_UPDATED,
+    ORDER_CANCELLED,
+    ORDER_RETURNED
+}
